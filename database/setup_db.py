@@ -27,6 +27,7 @@ def create_database():
     conn.close()
     print(f"Database '{DB_NAME}' created/verified.")
 
+# schema execution helper update
 def run_schema():
     config = {**DB_CONFIG, 'database': DB_NAME}
     conn = mysql.connector.connect(**config)
