@@ -7,7 +7,7 @@ import mysql.connector
 import os
 from dotenv import load_dotenv
 
-# Load .env from project root
+# adding the .env vaiables
 load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
 
 DB_CONFIG = {
