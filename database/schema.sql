@@ -1,5 +1,5 @@
--- Expense Tracker Database Schema
 -- Run this script once to create all required tables
+-- Expense Tracker Database Schema
 
 CREATE DATABASE IF NOT EXISTS cait_capestone;
 USE cait_capestone;
