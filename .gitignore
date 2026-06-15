@@ -1,0 +1,22 @@
+# Environment files
+.env
+backend/.env
+
+# Dependencies
+frontend/node_modules/
+
+# Build output
+backend/target/
+frontend/.angular/cache/
+
+# Maven wrapper (optional, recipient can use their own Maven)
+backend/.mvn/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
